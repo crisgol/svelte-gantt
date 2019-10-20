@@ -26,7 +26,7 @@ function generateData() {
             age: (Math.random() * 80) | 0,
 			tasks: [],
 			enableDragging: true,
-			imageSrc: 'Content/joe.jpg',
+			imageSrc: 'public/Content/joe.jpg',
 			//contentHtml: '<s>Test</s>'
 			//headerHtml: '<s>Test</s>'
 			classes: rand_bool ? ['row-disabled'] : undefined,
